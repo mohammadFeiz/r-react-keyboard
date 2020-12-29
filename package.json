@@ -1,0 +1,19 @@
+{
+  "name": "r-react-keyboard",
+  "version": "1.0.0",
+  "description": "```javascript\r npm i r-react-keyboard\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadFeiz/r-react-keyboard.git"
+  },
+  "author": "mohammad feiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadFeiz/r-react-keyboard/issues"
+  },
+  "homepage": "https://github.com/mohammadFeiz/r-react-keyboard#readme"
+}
