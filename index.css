@@ -1,0 +1,95 @@
+.keyboard{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  left:0;
+  display:flex;
+  flex-direction: column;
+  box-sizing:border-box;
+  padding:6px;
+  -webkit-uset-select:none;
+  user-select:none;
+}
+.keyboard .back-drop{
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index:10;
+}
+.keyboard .keyboard-row{
+  width:100%;
+  box-sizing: border-box;
+  display:flex;
+  position:relative;
+  z-index:100;
+  direction:ltr;
+}
+.keyboard .key-container{
+  box-sizing:border-box;
+  display:flex;
+
+}
+.keyboard .keyboard-key{
+  position:relative;
+  text-align:center;
+  border-radius:4px;
+  font-size:16px;
+  font-family:arial;
+  flex:1;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.keyboard .keyboard-key span{
+  position:absolute;
+  top:1px;
+  right:calc(50%);
+  opacity:.4;
+  font-size:80%
+}
+.keyboard .keyboard-header{
+  width:100%;
+  display:flex;
+  align-items:center;
+  box-sizing:border-box;
+  position:relative;
+  z-index:100;
+  padding:6px 3px;
+}
+.keyboard .keyboard-lcd{
+  padding:0 8px;
+  font-size:16px;
+  box-sizing: border-box;
+  border-radius:4px;
+  flex:1;
+  display:flex;
+  align-items:center;
+  overflow-y:auto;
+}
+.keyboard .key-shadow{
+  z-index:10000;
+  position:absolute;
+  width:100% !important;
+  height:100% !important;
+  left:-4px;
+  bottom:130%;
+  transform:scale(1.5);
+}
+
+.keyboard .keyboard-title{
+  white-space:nowrap;
+  z-index:100;
+  text-overflow:ellipsis;
+  display:flex;
+  padding:0 12px;
+  box-sizing: border-box;
+  align-items: center;    
+}
+.keyboard .keyboard-title span{
+  flex:1;
+  box-sizing:border-box;
+  padding:0 3px;
+}
+
