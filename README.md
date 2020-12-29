@@ -18,3 +18,15 @@ onchange      | function         | optional      | send value to parent while ty
 languages     | object           | optional      | set extra languages to keyboard
 languageIndex | number           | optioanl      | set extra language by index
 
+### theme properties
+Property         | Default   | Description
+---------------- | --------- | -----------
+background       | '#c9ced4' | 
+keyBackground    | '#fff'    |
+keyColor         | '#28292b' |
+keyActiveColor   | '#1d5ee4' |
+keyBoxShadow     |           | example: '0 1px 2px 0px #000'
+screenColor      | '#666'    |
+screenBackground | '#eee'    |
+titleColor       | '#000'    |
+highlight        | '#7fb9ef' |
