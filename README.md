@@ -1,6 +1,6 @@
 # r-react-keyboard
 Prop | Type | Default
----|---|---|---
+--- | --- | --- |---
 value | String or Number | Optional | init value of keyboard
 title | String | Optional | keyboard title
 onClose | function | Required | call to close keyboard by parent
