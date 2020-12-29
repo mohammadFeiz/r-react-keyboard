@@ -28,7 +28,7 @@ export default class RReactKeyboard extends Component {
   }
   getRTL(){
     var {languages,languageIndex} = this.props;
-    return languageIndex !== false && languages[languageIndex].direction === 'rtl';
+    return languages && languageIndex !== false && languages[languageIndex].direction === 'rtl';
   }
   getOriginalRows(){
     return [
@@ -40,7 +40,7 @@ export default class RReactKeyboard extends Component {
         },
         {
           items: [
-            {lowerCase:'q',caps:'Q',hotKey:'Q',sym:'+'},{lowerCase:'w',caps:'W',sym:'x'},{lowerCase:'e',caps:'E',sym:'÷'},{lowerCase:'r',caps:'R',sym:'='},{lowerCase:'t',caps:'T',sym:'/'},
+            {lowerCase:'q',caps:'Q',sym:'+'},{lowerCase:'w',caps:'W',sym:'x'},{lowerCase:'e',caps:'E',sym:'÷'},{lowerCase:'r',caps:'R',sym:'='},{lowerCase:'t',caps:'T',sym:'/'},
             {lowerCase:'y',caps:'Y',sym:'_'},{lowerCase:'u',caps:'U',sym:'€'},{lowerCase:'i',caps:'I',sym:'£'},{lowerCase:'o',caps:'O',sym:'¥'},{lowerCase:'p',caps:'P',sym:'*'},
           ]
         },

@@ -1,6 +1,6 @@
 {
   "name": "r-react-keyboard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "```javascript\r npm i r-react-keyboard\r ```",
   "main": "index.js",
   "scripts": {

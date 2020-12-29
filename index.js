@@ -106,7 +106,7 @@ var RReactKeyboard = /*#__PURE__*/function (_Component) {
       var _this$props2 = this.props,
           languages = _this$props2.languages,
           languageIndex = _this$props2.languageIndex;
-      return languageIndex !== false && languages[languageIndex].direction === 'rtl';
+      return languages && languageIndex !== false && languages[languageIndex].direction === 'rtl';
     }
   }, {
     key: "getOriginalRows",
@@ -149,7 +149,6 @@ var RReactKeyboard = /*#__PURE__*/function (_Component) {
         items: [{
           lowerCase: 'q',
           caps: 'Q',
-          hotKey: 'Q',
           sym: '+'
         }, {
           lowerCase: 'w',
