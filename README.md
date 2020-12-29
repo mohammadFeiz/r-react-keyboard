@@ -1,4 +1,10 @@
 # r-react-keyboard
+### Instalation
+```javascript
+npm i r-react-keyboard
+```
+
+
 Prop          | Type             | Default       | Description
 ------------- | ---------------- | ------------- |---------------------------------
 value         | String or Number | Optional      | init value of keyboard
